@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  functions = "functions" # netlify dev uses this directory to scaffold and serve your functions
+
+[dev]
+  framework = "#auto"
+  functions = "functions/"
+
